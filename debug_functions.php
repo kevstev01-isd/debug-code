@@ -135,5 +135,5 @@ function debugPrintCallingFunction () {
     if (isset($debugTrace[2])) $func = $debugTrace[2]['function'] ? $debugTrace[2]['function'] : 'n/a'; 
     echo "$file, $func, $line".PHP_EOL; 
 } 
-// END DEBUG FUNCTIONS.
+// END DEBUG FUNCTIONS
 ?>
